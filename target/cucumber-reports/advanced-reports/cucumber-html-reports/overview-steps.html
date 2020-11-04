@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Cucumber Reports</td>
+        <td>1</td>
+      <td>04 Nov 2020, 06:05</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+              <td class="location">MyStepDefs.afterScenario()</td>
+              <td>11</td>
+              <td class="duration" data-value="81894242">0.081</td>
+              <td class="duration" data-value="81894242">0.088</td>
+              <td class="duration" data-value="900836667">0.900</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.beforeScenario()</td>
+              <td>11</td>
+              <td class="duration" data-value="1966553339">1.966</td>
+              <td class="duration" data-value="1966553339">2.570</td>
+              <td class="duration" data-value="21632086730">21.632</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterConfirmPassword(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="185000615">0.185</td>
+              <td class="duration" data-value="185000615">0.191</td>
+              <td class="duration" data-value="925003077">0.925</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterEmail(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="208589738">0.208</td>
+              <td class="duration" data-value="208589738">0.225</td>
+              <td class="duration" data-value="1042948690">1.042</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterEmptyLogin(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="272086326">0.272</td>
+              <td class="duration" data-value="272086326">0.319</td>
+              <td class="duration" data-value="1360431630">1.360</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterInvalidLogin(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="270031708">0.270</td>
+              <td class="duration" data-value="270031708">0.270</td>
+              <td class="duration" data-value="270031708">0.270</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterInvalidMaxEmail(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="222549522">0.222</td>
+              <td class="duration" data-value="222549522">0.222</td>
+              <td class="duration" data-value="222549522">0.222</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterInvalidMaxLogin(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="298662011">0.298</td>
+              <td class="duration" data-value="298662011">0.298</td>
+              <td class="duration" data-value="298662011">0.298</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterInvalidMinEmail(String)</td>
+              <td>1</td>
+              <td class="duration" data-value="191368786">0.191</td>
+              <td class="duration" data-value="191368786">0.191</td>
+              <td class="duration" data-value="191368786">0.191</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterPassword(String)</td>
+              <td>5</td>
+              <td class="duration" data-value="207642386">0.207</td>
+              <td class="duration" data-value="207642386">0.234</td>
+              <td class="duration" data-value="1038211932">1.038</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterTheMainPlatformPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="1635750589">1.635</td>
+              <td class="duration" data-value="1635750589">1.635</td>
+              <td class="duration" data-value="1635750589">1.635</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidAuthEmail()</td>
+              <td>1</td>
+              <td class="duration" data-value="2311734903">2.311</td>
+              <td class="duration" data-value="2311734903">2.311</td>
+              <td class="duration" data-value="2311734903">2.311</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidAuthPassword()</td>
+              <td>1</td>
+              <td class="duration" data-value="187635710">0.187</td>
+              <td class="duration" data-value="187635710">0.187</td>
+              <td class="duration" data-value="187635710">0.187</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidConfirmPassword(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="190403813">0.190</td>
+              <td class="duration" data-value="190403813">0.201</td>
+              <td class="duration" data-value="1142422880">1.142</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidEmail(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="208432267">0.208</td>
+              <td class="duration" data-value="208432267">0.217</td>
+              <td class="duration" data-value="833729068">0.833</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidLogin(String)</td>
+              <td>4</td>
+              <td class="duration" data-value="274376549">0.274</td>
+              <td class="duration" data-value="274376549">0.283</td>
+              <td class="duration" data-value="1097506199">1.097</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iEnterValidPassword(String)</td>
+              <td>6</td>
+              <td class="duration" data-value="208324014">0.208</td>
+              <td class="duration" data-value="208324014">0.252</td>
+              <td class="duration" data-value="1249944085">1.249</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iPressAlertButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="11748277">0.011</td>
+              <td class="duration" data-value="11748277">0.011</td>
+              <td class="duration" data-value="11748277">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iPressSubmitButton()</td>
+              <td>11</td>
+              <td class="duration" data-value="173695219">0.173</td>
+              <td class="duration" data-value="173695219">0.188</td>
+              <td class="duration" data-value="1910647412">1.910</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iPressSubmitSignInButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="188077126">0.188</td>
+              <td class="duration" data-value="188077126">0.188</td>
+              <td class="duration" data-value="188077126">0.188</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.iStayOnTheSamePage()</td>
+              <td>9</td>
+              <td class="duration" data-value="2008279080">2.008</td>
+              <td class="duration" data-value="2008279080">2.009</td>
+              <td class="duration" data-value="18074511723">18.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+            <tr>
+              <td class="location">MyStepDefs.registrationPageIsOpen()</td>
+              <td>11</td>
+              <td class="duration" data-value="8964337">0.008</td>
+              <td class="duration" data-value="8964337">0.098</td>
+              <td class="duration" data-value="98607709">0.098</td>
+              <td class="passed">100.00%</td>
+            </tr>
+        </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>22</td>
+            <td>102</td>
+            <td class="duration">0.555</td>
+            <td class="duration">21.632</td>
+            <td class="duration">56.624</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

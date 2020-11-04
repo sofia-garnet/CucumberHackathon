@@ -1,0 +1,1931 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 98463649,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2570721646,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Successful registration on the platform",
+        "description": "",
+        "id": "authorization-on-the-platform;successful-registration-on-the-platform;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 85497365,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 283977841,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202889333,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187757582,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206400447,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter valid email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178198289,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2311734903,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter valid auth email",
+            "match": {
+              "location": "MyStepDefs.iEnterValidAuthEmail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187635710,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter valid auth password",
+            "match": {
+              "location": "MyStepDefs.iEnterValidAuthPassword()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188077126,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I press submit sign in button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11748277,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I press alert button",
+            "match": {
+              "location": "MyStepDefs.iPressAlertButton()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@success"
+          },
+          {
+            "line": 7,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Authorization on the platform",
+    "description": "",
+    "id": "authorization-on-the-platform",
+    "keyword": "Feature",
+    "uri": "RegPlusAuth.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: en"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19782,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1900654145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Successful registration on the platform",
+        "description": "",
+        "id": "registration-on-the-platform;successful-registration-on-the-platform;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 80433748,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266590224,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter valid login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202234397,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 189103648,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217460302,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter valid email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168710648,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1635750589,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the main platform page",
+            "match": {
+              "location": "MyStepDefs.iEnterTheMainPlatformPage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@success"
+          },
+          {
+            "line": 7,
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 18734,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1613234891,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Unsuccessful registration with invalid min login",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-invalid-min-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 76610564,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270031708,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I enter invalid min login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepDefs.iEnterInvalidLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 196161923,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 184161024,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 210169546,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter valid email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165022421,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008587679,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 20,
+            "name": "@failed"
+          },
+          {
+            "line": 20,
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10521,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1926126207,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "Unsuccessful registration with invalid max login",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-invalid-max-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 76168885,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 298662011,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "I enter invalid max login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepDefs.iEnterInvalidMaxLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 206538029,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 192289113,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199698773,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "I enter valid email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166116105,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009649801,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 33,
+            "name": "@failed"
+          },
+          {
+            "line": 33,
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10867,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1987783310,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Unsuccessful registration with empty fields",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-empty-fields;data;2",
+        "after": [
+          {
+            "result": {
+              "duration": 82781108,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 250723907,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter empty login \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmptyLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191488311,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180282099,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter confirm password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepDefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 197480647,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161217363,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2006424033,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@failed"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 12448,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1831123416,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Unsuccessful registration with empty fields",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-empty-fields;data;3",
+        "after": [
+          {
+            "result": {
+              "duration": 88606904,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 247686159,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter empty login \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmptyLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 221085292,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191267366,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepDefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 206331902,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176690741,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2007768227,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@failed"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10330,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1690483763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Unsuccessful registration with empty fields",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-empty-fields;data;4",
+        "after": [
+          {
+            "result": {
+              "duration": 79948090,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 266098616,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter empty login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmptyLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 234439409,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 185825958,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepDefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 199184025,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter email \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176168433,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009964160,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@failed"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11063,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1910660495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 58,
+        "name": "Unsuccessful registration with empty fields",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-empty-fields;data;5",
+        "after": [
+          {
+            "result": {
+              "duration": 84362169,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 276628688,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter empty login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmptyLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 188906786,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 180219305,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepDefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214057252,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188576153,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2009109339,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@failed"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 22449,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2078617558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 59,
+        "name": "Unsuccessful registration with empty fields",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-empty-fields;data;6",
+        "after": [
+          {
+            "result": {
+              "duration": 84468489,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 319294260,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I enter empty login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmptyLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 202292134,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "I enter password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepDefs.iEnterPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187408349,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I enter confirm password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 26
+                }
+              ],
+              "location": "MyStepDefs.iEnterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225894864,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I enter email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 15
+                }
+              ],
+              "location": "MyStepDefs.iEnterEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187769291,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2007554202,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 45,
+            "name": "@failed"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10258,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2015905156,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 71,
+        "name": "Unsuccessful registration with invalid min email",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-invalid-min-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 79446550,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 270827424,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I enter valid login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189754134,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 187704644,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191368786,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I enter invalid min email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepDefs.iEnterInvalidMinEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 175613888,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2006933648,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 61,
+            "name": "@failed"
+          },
+          {
+            "line": 61,
+            "name": "@all"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 17608,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Registration page is open",
+            "match": {
+              "location": "MyStepDefs.registrationPageIsOpen()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2106776143,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.beforeScenario()"
+            }
+          }
+        ],
+        "line": 84,
+        "name": "Unsuccessful registration with invalid max email",
+        "description": "",
+        "id": "registration-on-the-platform;unsuccessful-registration-with-invalid-max-email;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 82512795,
+              "status": "passed"
+            },
+            "match": {
+              "location": "MyStepDefs.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 276110710,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I enter valid login \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 21
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidLogin(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252366269,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I enter valid password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 24
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidPassword(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 201406869,
+              "status": "passed"
+            },
+            "line": 78,
+            "name": "I enter valid confirm password \"Qwerty!123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qwerty!123",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepDefs.iEnterValidConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222549522,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I enter invalid max email \"random\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "random",
+                  "offset": 27
+                }
+              ],
+              "location": "MyStepDefs.iEnterInvalidMaxEmail(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 166564080,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I press submit button",
+            "match": {
+              "location": "MyStepDefs.iPressSubmitButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2008520634,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "I stay on the same page",
+            "match": {
+              "location": "MyStepDefs.iStayOnTheSamePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 74,
+            "name": "@failed"
+          },
+          {
+            "line": 74,
+            "name": "@all"
+          }
+        ]
+      }
+    ],
+    "name": "Registration on the platform",
+    "description": "",
+    "id": "registration-on-the-platform",
+    "keyword": "Feature",
+    "uri": "Register.feature"
+  }
+]

@@ -1,0 +1,6 @@
+pages/tools/BrowserActions.class
+MyStepDefs.class
+pages/Page.class
+pages/AuthorizationPage.class
+TestRunner.class
+pages/RegistrationPage.class

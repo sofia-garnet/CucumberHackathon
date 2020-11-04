@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="11" time="56.624445">
+<testcase classname="Authorization on the platform" name="Successful registration on the platform" time="6.513102">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter valid login "random"...........................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter valid email "random"............................................passed
+And I press submit button...................................................passed
+And I enter valid auth email................................................passed
+And I enter valid auth password.............................................passed
+And I press submit sign in button...........................................passed
+And I press alert button....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Successful registration on the platform" time="4.660957">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter valid login "random"...........................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter valid email "random"............................................passed
+And I press submit button...................................................passed
+Then I enter the main platform page.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with invalid min login" time="4.723998">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter invalid min login "random".....................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter valid email "random"............................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with invalid max login" time="5.075259">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter invalid max login "random".....................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter valid email "random"............................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with empty fields" time="5.058192">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter empty login "".................................................passed
+And I enter password "".....................................................passed
+And I enter confirm password "".............................................passed
+And I enter email ""........................................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with empty fields 2" time="4.970572">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter empty login "".................................................passed
+And I enter password "Qwerty!123"...........................................passed
+And I enter confirm password "Qwerty!123"...................................passed
+And I enter email "random"..................................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with empty fields 3" time="4.842123">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter empty login "random"...........................................passed
+And I enter password "Qwerty!123"...........................................passed
+And I enter confirm password "Qwerty!123"...................................passed
+And I enter email ""........................................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with empty fields 4" time="5.052531">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter empty login "random"...........................................passed
+And I enter password "".....................................................passed
+And I enter confirm password "Qwerty!123"...................................passed
+And I enter email "random"..................................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with empty fields 5" time="5.293322">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter empty login "random"...........................................passed
+And I enter password "Qwerty!123"...........................................passed
+And I enter confirm password "".............................................passed
+And I enter email "random"..................................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with invalid min email" time="5.117564">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter valid login "random"...........................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter invalid min email "random"......................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Registration on the platform" name="Unsuccessful registration with invalid max email" time="5.316825">
+<system-out><![CDATA[Given Registration page is open.............................................passed
+When I enter valid login "random"...........................................passed
+And I enter valid password "Qwerty!123".....................................passed
+And I enter valid confirm password "Qwerty!123".............................passed
+And I enter invalid max email "random"......................................passed
+And I press submit button...................................................passed
+Then I stay on the same page................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

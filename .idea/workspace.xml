@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="BuildServerSettings">
+    <treeState key="project">
+      <selectedPath>
+        <pathElement>
+          <option name="myNodeId" value="helperText" />
+          <option name="myNodeType" value="jetbrains.buildServer.tree.descriptors.LinkedTextDescriptor" />
+        </pathElement>
+      </selectedPath>
+    </treeState>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b74dc930-eeb9-4e73-9547-231a8608a1de" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AT_Module3_HW4_RestAssured/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/features/RegPlusAuth.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/features/Register.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/MyStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/AuthorizationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/tools/BrowserActions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPractice — копия/src/test/java/MyStepsDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CucumberPractice — копия/src/test/java/enteties/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JmeterPractice/src/test/jmeter/qwerty (1).jmx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/AddPetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/CreateUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/DeletePetResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/DeleteUserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/Statuses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/data/schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/entities/invalidPet/InvalidPet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/entities/pet/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/entities/pet/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/main/entities/pet/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/src/com/company/test/TestRestAssuredAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RestAssured/tasks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SofiaGit.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jHK6dEYydxfbh3pZEaw3F3EouG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.28045976" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/features" />
+      <recent name="$PROJECT_DIR$/src/test" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CucumberPractice" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestRunner" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b74dc930-eeb9-4e73-9547-231a8608a1de" name="Default Changelist" comment="" />
+      <created>1603455403206</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603455403206</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="183" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604462264738">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="183" y="111" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1604462264738" />
+    <state x="427" y="251" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603637659342">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="427" y="251" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1603637659341" />
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1603625003395">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="605" y="138" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1603625003395" />
+    <state x="519" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603632489946">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="519" y="209" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1603632489946" />
+    <state width="1396" height="223" key="GridCell.Tab.0.bottom" timestamp="1604462640605">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="223" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1604462640605" />
+    <state width="1396" height="223" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603914955890" />
+    <state width="1396" height="223" key="GridCell.Tab.0.center" timestamp="1604462640604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="223" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1604462640604" />
+    <state width="1396" height="223" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1603914955888" />
+    <state width="1396" height="223" key="GridCell.Tab.0.left" timestamp="1604462640603">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="223" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1604462640603" />
+    <state width="1396" height="223" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1603914955887" />
+    <state width="1396" height="223" key="GridCell.Tab.0.right" timestamp="1604462640604">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="223" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1604462640604" />
+    <state width="1396" height="223" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1603914955889" />
+    <state width="1435" height="269" key="GridCell.Tab.1.bottom" timestamp="1603678809251">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1435" height="269" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1603678809251" />
+    <state width="1435" height="269" key="GridCell.Tab.1.center" timestamp="1603678809250">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1435" height="269" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1603678809250" />
+    <state width="1435" height="269" key="GridCell.Tab.1.left" timestamp="1603678809250">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1435" height="269" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1603678809250" />
+    <state width="1435" height="269" key="GridCell.Tab.1.right" timestamp="1603678809250">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1435" height="269" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1603678809250" />
+    <state x="220" y="39" key="SettingsEditor" timestamp="1603686763700">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="39" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1603686763700" />
+    <state x="220" y="61" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1603623780302" />
+    <state x="429" y="379" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603623430285">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="429" y="379" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1440.877@0.23.1440.877" timestamp="1603623430285" />
+    <state x="87" y="105" key="new project wizard" timestamp="1603642430028">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="87" y="105" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1603642430028" />
+    <state x="476" y="374" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1603622537957">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="476" y="374" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.23.1440.877@0.23.1440.877" timestamp="1603622537957" />
+    <state x="384" y="202" width="672" height="677" key="run.anything.popup" timestamp="1603623551848">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="384" y="202" width="672" height="677" key="run.anything.popup/0.23.1440.877@0.23.1440.877" timestamp="1603623551848" />
+  </component>
+</project>
